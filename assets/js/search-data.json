@@ -37,6 +37,17 @@
         ,"post3": {
             "title": "Title",
             "content": "",
+            "url": "https://teambrobro.github.io/TeamBroBro/2022/10/24/SET-1.html",
+            "relUrl": "/2022/10/24/SET-1.html",
+            "date": " • Oct 24, 2022"
+        }
+        
+    
+  
+    
+        ,"post4": {
+            "title": "Title",
+            "content": "",
             "url": "https://teambrobro.github.io/TeamBroBro/2022/10/24/Python-API-JOKES.html",
             "relUrl": "/2022/10/24/Python-API-JOKES.html",
             "date": " • Oct 24, 2022"
@@ -45,7 +56,7 @@
     
   
     
-        ,"post4": {
+        ,"post5": {
             "title": "Fetch of Backend Jokes",
             "content": "| Overview | Covid19 RapidAPI | Jokes API | Users Database | . Joke HaHa Boohoo .",
             "url": "https://teambrobro.github.io/TeamBroBro/data/jokes",
@@ -56,7 +67,7 @@
     
   
     
-        ,"post5": {
+        ,"post6": {
             "title": "Python API JOKES formatting.",
             "content": "import requests # Allows you to get data from API url = &quot;https://flask.nighthawkcodingsociety.com/api/jokes/&quot; # Defines URL response = requests.get(url) # Using the requests.get(url) I can pull the requests from the URL data = response.json() # Puts Jsonified data into a variable and formats it for entry in data: print(f&#39;{entry[&quot;joke&quot;]} n boohoo count: {entry[&quot;boohoo&quot;]} n haha count: {entry[&quot;haha&quot;]}&#39;) # For each joke, an &quot;entry&quot; has the joke in it # n puts it on a new line . If you give someone a program... you will frustrate them for a day; if you teach them how to program... you will frustrate them for a lifetime. boohoo count: 421122 haha count: 186709 Q: Why did I divide sin by tan? A: Just cos. boohoo count: 5504 haha count: 30466 UNIX is basically a simple operating system... but you have to be a genius to understand the simplicity. boohoo count: 1379 haha count: 1876 Enter any 11-digit prime number to continue. boohoo count: 1345 haha count: 1635 If at first you don&#39;t succeed; call it version 1.0. boohoo count: 1782 haha count: 2099 Java programmers are some of the most materialistic people I know, very object-oriented boohoo count: 5129 haha count: 1342 The oldest computer can be traced back to Adam and Eve. It was an apple but with extremely limited memory. Just 1 byte. And then everything crashed. boohoo count: 1824 haha count: 1147 Q: Why did Wi-Fi and the computer get married? A: Because they had a connection boohoo count: 2439 haha count: 3078 Bill Gates teaches a kindergarten class to count to ten. 1, 2, 3, 3.1, 95, 98, ME, 2000, XP, Vista, 7, 8, 10. boohoo count: 31295 haha count: 1341 Q: What’s a aliens favorite computer key? A: the space bar! boohoo count: 2135 haha count: 1540 There are 10 types of people in the world: those who understand binary, and those who don’t. boohoo count: 17141 haha count: 1773 If it wasn&#39;t for C, we’d all be programming in BASI and OBOL. boohoo count: 1320 haha count: 1781 Computers make very fast, very accurate mistakes. boohoo count: 1805 haha count: 1125 Q: Why is it that programmers always confuse Halloween with Christmas? A: Because 31 OCT = 25 DEC. boohoo count: 1244 haha count: 1161 Q: How many programmers does it take to change a light bulb? A: None. It’s a hardware problem. boohoo count: 1463 haha count: 1475 The programmer got stuck in the shower because the instructions on the shampoo bottle said: Lather, Rinse, Repeat. boohoo count: 1218 haha count: 4274 Q: What is the biggest lie in the entire universe? A: I have read and agree to the Terms and Conditions. boohoo count: 1122 haha count: 2058 An SQL statement walks into a bar and sees two tables. It approaches, and asks may I join you? boohoo count: 4610 haha count: 1001885 .",
             "url": "https://teambrobro.github.io/TeamBroBro/2022/10/23/Python-Jokes-Api.html",
