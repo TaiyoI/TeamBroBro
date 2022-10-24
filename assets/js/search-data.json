@@ -3,9 +3,9 @@
     
         "post0": {
             "title": "Likes/Dislikes Demo",
-            "content": "&lt;h1&gt;Pop Music&lt;/h1&gt; &lt;button type=&quot;button&quot;&gt;Like&lt;/button&gt; &lt;button type=&quot;button&quot;&gt;Dislike&lt;/button&gt; &lt;button type=&quot;button&quot; input type=&quot;reset&quot; value=&quot;Reset&quot;&gt; . Input In [3] &lt;h1&gt;Pop Music&lt;/h1&gt; ^ SyntaxError: invalid syntax .",
-            "url": "https://teambrobro.github.io/TeamBroBro/fastpages/jupyter/api/demo/2022/10/24/api.html",
-            "relUrl": "/fastpages/jupyter/api/demo/2022/10/24/api.html",
+            "content": "Pop Music . Like Dislike &lt;/html&gt; .",
+            "url": "https://teambrobro.github.io/TeamBroBro/fastpages/markdown/html/api/2022/10/24/api.html",
+            "relUrl": "/fastpages/markdown/html/api/2022/10/24/api.html",
             "date": " • Oct 24, 2022"
         }
         
