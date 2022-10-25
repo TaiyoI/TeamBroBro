@@ -71,7 +71,65 @@ window.onload = wrap_img;
 </header>
 <main class="page-content" aria-label="Content">
       <div class="wrapper">
-        <div class="home"><h2 id="chess-set">Chess Set</h2>
+        <div class="home"><html>
+
+<body>
+
+  <h1 id="typewriter" />
+
+</body>
+
+<style>
+  html {
+    background-color: rgb(208, 208, 208);
+    
+  }
+
+  body {
+    animation: fadeIn 0.25s ease-in;
+  }
+
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+
+    100% {
+      opacity: 1;
+    }
+  }
+
+  #container {
+      position: absolute;
+      width: 200px;
+      height: 200px;
+      margin: auto;
+      transform: rotate(45deg);
+      top: 0; bottom: 0; left: 0; right: 0;
+  }
+</style>
+
+<script>
+  var i = 0;
+  var txt = "CHESS OPENINGS";
+
+  var speed = 100;
+  function typeWriter(x) {
+
+    if (i <= txt.length) {
+      document.getElementById("typewriter").innerHTML = '\xa0' + txt.substring(0, i)
+      i++;
+      setTimeout(typeWriter, speed);
+    }
+
+  }
+
+  typeWriter();
+
+</script>
+
+</html>
+
 <p><img src="https://user-images.githubusercontent.com/109186517/197577299-0546587a-4ac9-4da4-8223-7bd3bbda42f7.png" height="230" id="DRAKE" />
 <img src="https://cdn.dribbble.com/users/158046/screenshots/5352814/media/1278e691722150a855011e5a413939ab.png?compress=1&amp;resize=400x300&amp;vertical=top" height="230" alt="Drake cooler" style="float:right" /></p>
 <table>
