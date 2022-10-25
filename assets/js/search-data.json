@@ -14,7 +14,7 @@
     
         ,"post1": {
             "title": "Title",
-            "content": "&lt;iframe src=&quot;https://new.csb.app/chess/bro/bro&quot; title=&quot;chess-board&quot;&gt; . Input In [1] &lt;iframe src=&#34;https://new.csb.app/chess/bro/bro&#34; title=&#34;chess-board&#34;&gt; ^ SyntaxError: invalid syntax .",
+            "content": "import &quot;./styles.css&quot;; document.body.style.backgroundColor = &#39;#333&#39;; /* chess board that is 8 by 8. There should be a total of 32 black squares and 32 white squares. */ var chessBoard = document.createElement(&#39;div&#39;); chessBoard.style.width = &#39;320px&#39;; chessBoard.style.height = &#39;320px&#39;; chessBoard.style.backgroundColor = &#39;#fff&#39;; chessBoard.style.margin = &#39;0 auto&#39;; chessBoard.style.border = &#39;1px solid #000&#39;; document.body.appendChild(chessBoard); var square = document.createElement(&#39;div&#39;); square.style.width = &#39;40px&#39;; square.style.height = &#39;40px&#39;; square.style.float = &#39;left&#39;; for (var i = 0; i &lt; 8; i++) { for (var j = 0; j &lt; 8; j++) { var squareClone = square.cloneNode(true); if ((i + j) % 2 === 0) { squareClone.style.backgroundColor = &#39;#000&#39;; } chessBoard.appendChild(squareClone); } } . Input In [4] import &#34;./styles.css&#34;; ^ SyntaxError: invalid syntax .",
             "url": "https://teambrobro.github.io/TeamBroBro/2022/10/25/js-test.html",
             "relUrl": "/2022/10/25/js-test.html",
             "date": " • Oct 25, 2022"
