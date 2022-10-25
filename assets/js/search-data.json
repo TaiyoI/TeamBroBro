@@ -97,7 +97,7 @@
   
       ,"page2": {
           "title": "About",
-          "content": "This site is built with fastpages . Key Links . GitHub Repos: github.com/nighthawkcoders | AWS Deployments: csp.nighthawkcodingsociety.com | Slack: Join Link | 2021-2022 Archives: Fall, Early Winter, Late Winter, Spring | . .",
+          "content": "table&gt; &lt;thead&gt; &lt;tr&gt; &lt;th&gt;Scrum Master&lt;/th&gt; &lt;th&gt;Dev Ops&lt;/th&gt; &lt;th&gt;Dev Ops&lt;/th&gt; &lt;th&gt;Front End&lt;/th&gt; &lt;th&gt;Front End&lt;/th&gt; &lt;/tr&gt; &lt;/thead&gt; &lt;tbody&gt; &lt;tr&gt; &lt;td&gt;Ethan Tran&lt;/td&gt; &lt;td&gt;Parav Salaniwal&lt;/td&gt; &lt;td&gt;Rohin Sood&lt;/td&gt; &lt;td&gt;Luna Iwazaki&lt;/td&gt; &lt;td&gt;Taiyo Iwazaki&lt;/td&gt; &lt;/tr&gt; &lt;/tbody&gt; &lt;/table&gt; .",
           "url": "https://teambrobro.github.io/TeamBroBro/about/",
           "relUrl": "/about/",
           "date": ""
