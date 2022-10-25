@@ -93,7 +93,9 @@
   
 
   
-      ,"page1": {
+
+  
+      ,"page2": {
           "title": "About",
           "content": "This site is built with fastpages . Key Links . GitHub Repos: github.com/nighthawkcoders | AWS Deployments: csp.nighthawkcodingsociety.com | Slack: Join Link | 2021-2022 Archives: Fall, Early Winter, Late Winter, Spring | . .",
           "url": "https://teambrobro.github.io/TeamBroBro/about/",
@@ -106,7 +108,7 @@
   
 
   
-      ,"page3": {
+      ,"page4": {
           "title": "",
           "content": "Chess Set . . Scrum Master Dev Ops Dev Ops Front End Front End . Ethan Tran | Parav Salaniwal | Rohin Sood | Luna Iwazaki | Taiyo Iwazaki | .",
           "url": "https://teambrobro.github.io/TeamBroBro/",
@@ -132,7 +134,7 @@
   
 
   
-      ,"page9": {
+      ,"page10": {
           "title": "",
           "content": "Sitemap: {{ “sitemap.xml” | absolute_url }} | .",
           "url": "https://teambrobro.github.io/TeamBroBro/robots.txt",
