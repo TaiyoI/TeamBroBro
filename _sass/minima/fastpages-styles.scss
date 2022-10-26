@@ -274,3 +274,26 @@ pre code {
   width: 100%;
   height: 100%;
 }
+table{
+  border-collapse: collapse;
+}
+table,tr,td {
+  border: 1px solid black;
+}
+table.center {
+    margin:auto;
+  }
+tr:nth-of-type(even) td:nth-of-type(odd),tr:nth-of-type(odd) td:nth-of-type(even){
+  color:white;background-color:white;
+}
+tr:nth-of-type(even) td:nth-of-type(even),
+tr:nth-of-type(odd) td:nth-of-type(odd)
+{
+color:black;background-color:black;
+}
+h1{
+  text-align:center;
+}
+body{
+  background-color:#bfb8b8;
+}
