@@ -3,7 +3,6 @@ keywords: fastai
 description: A discussion on Logic and Algorithms.  
 title: Algorithms and Logic
 toc: true
-image: /images/truth.png
 categories: []
 type: pbl
 week: 14
