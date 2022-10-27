@@ -1,6 +1,6 @@
 server = 'https://flask.nighthawkcodingsociety.com/' # run from web server
 url = server + "api/jokes/"
-responses = []  # responses list
+responses = []  # Responses list
 import requests
 import random
 
