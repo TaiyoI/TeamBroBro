@@ -256,15 +256,12 @@ table {
 pre code {
   font-size: 15px !important;
 }
-
-// Handle youtube videos, so they dont break on mobile devices
 .youtube-iframe-wrapper {
   position: relative;
   padding-bottom: 56.10%;
   height: 0;
   overflow: hidden;
 }
-
 .youtube-iframe-wrapper iframe,
 .youtube-iframe-wrapper object,
 .youtube-iframe-wrapper embed {
@@ -273,4 +270,27 @@ pre code {
   left: 0;
   width: 100%;
   height: 100%;
+}
+table{
+  border-collapse: collapse;
+}
+table,tr,td {
+  border: 1px solid black;
+}
+table.center {
+    margin:auto;
+  }
+tr:nth-of-type(even) td:nth-of-type(odd),tr:nth-of-type(odd) td:nth-of-type(even){
+  color:white;background-color:white;
+}
+tr:nth-of-type(even) td:nth-of-type(even),
+tr:nth-of-type(odd) td:nth-of-type(odd)
+{
+color:black;background-color:black;
+}
+h1{
+  text-align:center;
+}
+body{
+  background-color:#bfb8b8;
 }
