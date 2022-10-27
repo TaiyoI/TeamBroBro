@@ -71,12 +71,18 @@ window.onload = wrap_img;
       <div class="wrapper">
         <p>Test</p>  
 
-<img src="https://user-images.githubusercontent.com/109186517/198396131-ba52ef81-7987-432b-8aa5-35bd1c0e9eb0.png" width =35px onclick="cookieClick(this)">
+<img src="https://user-images.githubusercontent.com/109186517/198396131-ba52ef81-7987-432b-8aa5-35bd1c0e9eb0.png" width =35px onclick="mineOre(this)">
 <p>Ores: <span id="clicker">0</span></p>
 
-<script>
-function mineOre(obj) {
-    document.getElementById("clicker").innerHTML = Number(document.getElementById("clicker").innerHTML) + 1;
+<form>
+    <label>Your Code:</label>
+    <input type="text" name="name">
+    <input type="submit" value="Submit">
+  </form>
+<div></div>
+    <script>
+        function mineOre(obj) {
+        document.getElementById("clicker").innerHTML = Number(document.getElementById("clicker").innerHTML) + 1;
 }
 </script>
 
