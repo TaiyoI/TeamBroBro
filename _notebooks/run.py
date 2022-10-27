@@ -1,4 +1,4 @@
-server = 'https://flask.nighthawkcodingsociety.com/' # run from web server
+server = 'https://flask.nighthawkcodingsociety.com/' # Run from web server
 url = server + "api/jokes/"
 responses = []  # Responses list
 import requests
