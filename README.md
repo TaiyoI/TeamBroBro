@@ -14,7 +14,7 @@ _powered by [fastpages](https://github.com/fastai/fastpages)_
 
 ## What To Do Next?
 
-Great!  You have setup your repo.  Now its time to start writing content.  Some helpful links:
+Great!  You have setup your repository.  Now its time to start writing content.  Some helpful links:
 
 - [Writing Blogs With Jupyter](https://github.com/fastai/fastpages#writing-blog-posts-with-jupyter)
 
