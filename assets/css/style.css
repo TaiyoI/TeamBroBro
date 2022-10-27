@@ -477,7 +477,7 @@ li .post-meta-description { color: rgba(216, 249, 221, 0.69) !important; }
 
 /*-----------------------------------*/
 /*----- ADD YOUR STYLES BELOW -------*/
-.language-python + .language-plaintext { border-left: 1px solid grey; margin-left: 1rem !important; }
+.language-python + .language-plaintext { border-left: 1px solid #e4e4e4; margin-left: 1rem !important; }
 
 [class^="language-"]:not(.language-plaintext) pre, [class^="language-"]:not(.language-plaintext) code { background-color: #323443 !important; color: #f8f8f2; }
 
@@ -502,7 +502,7 @@ li .post-meta-description { color: rgba(216, 249, 221, 0.69) !important; }
 
 .highlight .hll, .highlight .s, .highlight .sa, .highlight .sb, .highlight .sc, .highlight .dl, .highlight .sd, .highlight .s2, .highlight .se, .highlight .sh, .highlight .si, .highlight .sx, .highlight .sr, .highlight .s1, .highlight .ss { color: #e7997a; }
 
-.highlight .go { color: #44475a; }
+.highlight .go { color: #eaeaea; }
 
 .highlight .err, .highlight .g, .highlight .l, .highlight .n, .highlight .x, .highlight .ge, .highlight .gr, .highlight .gh, .highlight .gi, .highlight .gp, .highlight .gs, .highlight .gu, .highlight .gt, .highlight .ld, .highlight .no, .highlight .nd, .highlight .pi, .highlight .ni, .highlight .ne, .highlight .nn, .highlight .nx, .highlight .py, .highlight .w, .highlight .bp { color: #f8f8f2; background-color: #323443 !important; }
 
@@ -512,7 +512,7 @@ li .post-meta-description { color: rgba(216, 249, 221, 0.69) !important; }
 
 .highlight .bp { font-style: italic; }
 
-.highlight .c, .highlight .ch, .highlight .cm, .highlight .cpf, .highlight .cs { color: #6272a4; }
+.highlight .c, .highlight .ch, .highlight .cm, .highlight .cpf, .highlight .cs { color: #d2d2d2; }
 
 .highlight .c1 { color: gray; }
 
