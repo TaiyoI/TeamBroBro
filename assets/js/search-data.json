@@ -97,7 +97,7 @@
   
       ,"page2": {
           "title": "About",
-          "content": "table&gt; &lt;thead&gt; &lt;tr&gt; &lt;th&gt;Scrum Master&lt;/th&gt; &lt;th&gt;Dev Ops&lt;/th&gt; &lt;th&gt;Dev Ops&lt;/th&gt; &lt;th&gt;Front End&lt;/th&gt; &lt;th&gt;Front End&lt;/th&gt; &lt;/tr&gt; &lt;/thead&gt; &lt;tbody&gt; &lt;tr&gt; &lt;td&gt;Ethan Tran&lt;/td&gt; &lt;td&gt;Parav Salaniwal&lt;/td&gt; &lt;td&gt;Rohin Sood&lt;/td&gt; &lt;td&gt;Luna Iwazaki&lt;/td&gt; &lt;td&gt;Taiyo Iwazaki&lt;/td&gt; &lt;/tr&gt; &lt;/tbody&gt; &lt;/table&gt; .",
+          "content": "Scrum Master Dev Ops Dev Ops Front End Front End . Ethan Tran | Parav Salaniwal | Rohin Sood | Luna Iwazaki | Taiyo Iwazaki | .",
           "url": "https://teambrobro.github.io/TeamBroBro/about/",
           "relUrl": "/about/",
           "date": ""
