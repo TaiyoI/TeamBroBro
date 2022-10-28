@@ -441,7 +441,7 @@ body { background-color: #bfb8b8; }
 
 html, body, input, textarea, select, button { color: rgba(216, 249, 221, 0.87) !important; background-color: #717171 !important; }
 
-a { color: #c64949 !important; }
+a { color: rgba(216, 249, 221, 0.38) !important; }
 
 a:hover { color: rgba(216, 249, 221, 0.87) !important; }
 
