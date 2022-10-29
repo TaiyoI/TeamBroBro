@@ -12,3 +12,8 @@ class codesAPI:
     class _Code(Resource):
         def get(user_codes):
             return jsonify(allCodes)
+
+if __name__ == "__main__": 
+    server = 'https://taiyoi.github.io/TeamBroBro/'
+    url = server + "/codes/game"
+    user_codes = []  
