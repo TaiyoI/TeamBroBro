@@ -1,7 +1,7 @@
 user_data = []
-user_codes = ["ETHAN" , "TAIYO", "LUNA"]
 
-
+class userCode(models.Model):
+    user_codes = ["ETHAN" , "TAIYO", "LUNA"]
 
 # Return all current codes
 def allCodes():
