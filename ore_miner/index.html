@@ -75,7 +75,7 @@ window.onload = wrap_img;
 <p>Ores: <span id="clicker">0</span></p>
 
 <button onclick="getCode()">Get Code</button>
-<p id="code">0</p>  
+<p id="userCode">0</p>  
 
 <input name="searchTxt" type="text" maxlength="20" id="inputCode" />
 <button onclick="decodeData()">Decode</button>
@@ -96,7 +96,7 @@ function mineOre() {
 }
 
 function getCode() {
- document.getElementById("code").innerHTML = document.getElementById('code').innerHTML; 
+ document.getElementById("userCode").innerHTML = code; 
 }
 
 function updateDisplay(){
