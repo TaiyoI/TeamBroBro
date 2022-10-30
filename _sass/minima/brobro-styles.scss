@@ -1,24 +1,27 @@
-$high-emph: #e2e8f0;
-$med-emph: #475569; //Noicee
-$low-emph: #2563eb;
-$dark-grey : #cbd5e1; 
-$overlay: mix($dark-grey, white, 95%);
-$overlay-light: mix($dark-grey, white, 86%);
+$high-emph: #000000;
+$med-emph: #000000; //Noicee
+$low-emph: #000000;
+$dark-grey : #000000;
+$overlay: #000000;
+$overlay-light: #ffffff;
 
-html, body, input, textarea, select, button {   
-  color: $high-emph !important;
-  background-color: $dark-grey !important;
+* {
+    transition: all 0.2s ease-in-out;
 }
 
-a {
-    color: $low-emph !important;
+html,
+body,
+input,
+textarea,
+select,
+button {
+    color: $high-emph !important;
+    background-color: $dark-grey !important;
 }
-
-a:hover {
-    color:$high-emph !important;
-}
-
-.site-title, .site-title:visited, .site-nav, .page-link {
+.site-title,
+.site-title:visited,
+.site-nav,
+.page-link {
     color: $high-emph !important;
 }
 
@@ -31,10 +34,12 @@ a:hover {
     scrollbar-color: $dark-grey $overlay-light;
 }
 
-pre, code {
+pre,
+code {
     // BVas a lighter colour to better highlight short code words
     border-color: $overlay-light;
     background-color: $overlay;
+    color: #fff;
 }
 
 .page-description {
@@ -45,7 +50,8 @@ pre, code {
     color: $low-emph;
 }
 
-.post-content p, .post-content li {
+.post-content p,
+.post-content li {
     color: $med-emph;
 }
 
@@ -59,13 +65,12 @@ pre, code {
     background-color: $dark-grey !important;
 }
 
-table th{
-    background-color: $overlay;
+table th {
     border-color: $overlay-light;
     color: $high-emph;
 }
 
-table td{
+table td {
     background-color: $dark-grey;
     border-color: $overlay-light;
     color: $med-emph;
@@ -88,4 +93,48 @@ canvas {
 
 li .post-meta-description {
     color: $med-emph !important;
+}
+
+.site-header {
+    position: sticky;
+    top: 0;
+    background-color: $dark-grey !important;
+}
+
+a {
+    color: #2563eb !important;
+}
+
+a:hover {
+    color: #0369a1 !important;
+    text-decoration: none !important;
+    font-weight: bold !important;
+}
+
+@import url("https://rsms.me/inter/inter.css");
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap");
+* {
+    font-family: "Inter", sans-serif !important;
+}
+@supports (font-variation-settings: normal) {
+    * {
+        font-family: "Inter var", sans-serif !important;
+    }
+}
+
+code,
+pre * {
+    font-family: "IBM Plex Mono", monospace !important;
+}
+h1,
+h2 {
+    font-weight: bold !important;
+}
+
+.highlight {
+    background-color: #000000 !important;
+}
+
+html {
+  scroll-behavior: smooth !important;
 }
