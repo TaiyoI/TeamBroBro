@@ -15,15 +15,16 @@ var upgradeTwo = 0
 var upgradeThree = 0
 var upgradeFour = 0
 var upgradeFive = 0
-
+var size = 10
 
 function mineOre() {
   ore++;
   document.getElementById("clicker").innerHTML = ore;
 }
-
-function getCode() {
- document.getElementById("userCode").innerHTML = code; 
+function getCode(userCode, size) {
+  document.getElementById("userCode").innerHTML = code; 
+  while (userCode.length < size) num = "0" + userCode;
+  return num;
 }
 
 function updateDisplay(){
