@@ -445,39 +445,39 @@ body { background-color: #bfb8b8; }
 /*----- ADD YOUR STYLES BELOW -------*/
 * { transition: all 0.2s ease-in-out; }
 
-html, body, input, textarea, select, button { color: #000000 !important; background-color: #000000 !important; }
+html, body, input, textarea, select, button { color: #fafafa !important; background-color: #fafaf9 !important; }
 
-.site-title, .site-title:visited, .site-nav, .page-link { color: #000000 !important; }
+.site-title, .site-title:visited, .site-nav, .page-link { color: #fafafa !important; }
 
-.site-nav { background-color: #000000; border-color: #ffffff; }
+.site-nav { background-color: #fafaf9; border-color: #ffffff; }
 
-* { scrollbar-color: #000000 #ffffff; }
+* { scrollbar-color: #fafaf9 #ffffff; }
 
 pre, code { border-color: #ffffff; background-color: #000000; color: #fff; }
 
-.page-description { color: #000000; }
+.page-description { color: #e2e8f0; }
 
 .post-meta { color: #000000; }
 
-.post-content p, .post-content li { color: #000000; }
+.post-content p, .post-content li { color: #e2e8f0; }
 
-.btn { background-color: #000000 !important; color: #000000 !important; border-color: #ffffff !important; }
+.btn { background-color: #000000 !important; color: #fafafa !important; border-color: #ffffff !important; }
 
-.btn:hover { background-color: #000000 !important; }
+.btn:hover { background-color: #fafaf9 !important; }
 
-table th { border-color: #ffffff; color: #000000; }
+table th { border-color: #ffffff; color: #fafafa; }
 
-table td { background-color: #000000; border-color: #ffffff; color: #000000; }
+table td { background-color: #fafaf9; border-color: #ffffff; color: #e2e8f0; }
 
-.flash { color: #000000 !important; filter: brightness(80%); }
+.flash { color: #fafaf9 !important; filter: brightness(80%); }
 
 canvas { filter: invert(100%); }
 
 .post-list > li > div { box-shadow: none !important; background-color: #000000; border: none !important; }
 
-li .post-meta-description { color: #000000 !important; }
+li .post-meta-description { color: #e2e8f0 !important; }
 
-.site-header { position: sticky; top: 0; background-color: #000000 !important; }
+.site-header { position: sticky; top: 0; background-color: #fafaf9 !important; }
 
 a { color: #2563eb !important; }
 
