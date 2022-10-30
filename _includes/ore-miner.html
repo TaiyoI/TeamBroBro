@@ -1,14 +1,79 @@
-<img src="https://user-images.githubusercontent.com/109186517/198396131-ba52ef81-7987-432b-8aa5-35bd1c0e9eb0.png" width =50px onclick="mineOre(this)">
+<img src="https://user-images.githubusercontent.com/109186517/198396131-ba52ef81-7987-432b-8aa5-35bd1c0e9eb0.png" width =50px onclick="mineOre()">
 <p>Ores: <span id="clicker">0</span></p>
 
-<form>
-    <label>Your Code:</label>
-    <input type="text" name="name">
-    <input type="submit" value="Submit">
-  </form>
-<div></div>
-    <script>
-        function mineOre(obj) {
-        document.getElementById("clicker").innerHTML = Number(document.getElementById("clicker").innerHTML) + 1;
+<button onclick="getCode()">Get Code</button>
+<p id="userCode">0</p>  
+
+<input name="searchTxt" type="text" maxlength="20" id="inputCode" />
+<button onclick="decodeData()">Decode</button>
+
+<script>
+
+var ore = 0
+var upgradeOne = 0
+var upgradeTwo = 0
+var upgradeThree = 0
+var upgradeFour = 0
+var upgradeFive = 0
+var size = 10
+
+function mineOre() {
+  ore++;
+  document.getElementById("clicker").innerHTML = ore;
 }
+function getCode(userCode) {
+  return userCode.toString().padStart(10, "0");
+}
+
+function updateDisplay(){
+  document.getElementById("clicker").innerHTML = ore;
+}
+
+function decodeData() {
+  const code = document.getElementById("inputCode").value;
+  const url = "https://www.teambrobro.tk/api/decode/" + code;
+
+  // prepare fetch GET options
+  const options = {
+    method: 'GET', // *GET, POST, PUT, DELETE, etc.
+    mode: 'cors', // no-cors, *cors, same-origin
+    cache: 'default', // *default, no-cache, reload, force-cache, only-if-cached
+    credentials: 'omit', // include, *same-origin, omit
+    headers: {
+      'Content-Type': 'application/json'
+      // 'Content-Type': 'application/x-www-form-urlencoded',
+    },
+  };
+
+  // prepare fetch PUT options, clones with JS Spread Operator (...)
+  const put_options = {...options, method: 'PUT'}; // clones and replaces method
+
+  // fetch the API
+  fetch(url, options)
+    // response is a RESTful "promise" on any successful fetch
+    .then(response => {
+      // check for response errors
+      if (response.status !== 200) {
+          error('GET API response failure: ' + response.status);
+          return;
+      }
+      // valid response will have JSON data
+      response.json().then(data => {
+          ore = data.ore
+          upgradeOne = data.upgrade_one
+          upgradeTwo = data.upgrade_two
+          upgradeThree = data.upgrade_three
+          upgradeFour = data.upgrade_four
+          upgradeFive = data.upgrade_five
+          updateDisplay()
+          }
+      )
+  })
+
+  // catch fetch errors (ie Nginx ACCESS to server blocked)
+  .catch(err => {
+    error(err + " " + url);
+  });
+}
+
 </script>
