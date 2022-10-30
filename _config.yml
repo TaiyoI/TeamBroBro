@@ -6,8 +6,8 @@
 # https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
 # https://learnxinyminutes.com/docs/yaml/
 
-title: Team BroBro
-description: TeamBroBro Project
+title: NBA Player Picker
+description: Search up different NBA players and vote on your personal preference
 github_username: TaiyoI
 # you can comment the below line out if your repo name is not different than your baseurl
 github_repo: "TeamBroBro"
