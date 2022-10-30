@@ -439,97 +439,42 @@ h1 { text-align: center; }
 
 body { background-color: #bfb8b8; }
 
-html, body, input, textarea, select, button { color: rgba(216, 249, 221, 0.87) !important; background-color: #717171 !important; }
+/*-----------------------------------*/
+/*----- ADD YOUR STYLES BELOW -------*/
+html, body, input, textarea, select, button { color: #e2e8f0 !important; background-color: #cbd5e1 !important; }
 
-a { color: rgba(216, 249, 221, 0.38) !important; }
+a { color: #2563eb !important; }
 
-a:hover { color: rgba(216, 249, 221, 0.87) !important; }
+a:hover { color: #e2e8f0 !important; }
 
-.site-title, .site-title:visited, .site-nav, .page-link { color: rgba(216, 249, 221, 0.87) !important; }
+.site-title, .site-title:visited, .site-nav, .page-link { color: #e2e8f0 !important; }
 
-.site-nav { background-color: #717171; border-color: #858585; }
+.site-nav { background-color: #cbd5e1; border-color: #d2dbe5; }
 
-* { scrollbar-color: #717171 #858585; }
+* { scrollbar-color: #cbd5e1 #d2dbe5; }
 
-pre, code { border-color: #858585; background-color: #787878; }
+pre, code { border-color: #d2dbe5; background-color: #ced7e3; }
 
-.page-description { color: rgba(216, 249, 221, 0.69); }
+.page-description { color: #475569; }
 
-.post-meta { color: rgba(216, 249, 221, 0.38); }
+.post-meta { color: #2563eb; }
 
-.post-content p, .post-content li { color: rgba(216, 249, 221, 0.69); }
+.post-content p, .post-content li { color: #475569; }
 
-.btn { background-color: #787878 !important; color: rgba(216, 249, 221, 0.87) !important; border-color: #858585 !important; }
+.btn { background-color: #ced7e3 !important; color: #e2e8f0 !important; border-color: #d2dbe5 !important; }
 
-.btn:hover { background-color: #717171 !important; }
+.btn:hover { background-color: #cbd5e1 !important; }
 
-table th { background-color: #787878; border-color: #858585; color: rgba(216, 249, 221, 0.87); }
+table th { background-color: #ced7e3; border-color: #d2dbe5; color: #e2e8f0; }
 
-table td { background-color: #717171; border-color: #858585; color: rgba(216, 249, 221, 0.69); }
+table td { background-color: #cbd5e1; border-color: #d2dbe5; color: #475569; }
 
-.flash { color: #717171 !important; filter: brightness(80%); }
+.flash { color: #cbd5e1 !important; filter: brightness(80%); }
 
 canvas { filter: invert(100%); }
 
-.post-list > li > div { box-shadow: none !important; background-color: #787878; border: none !important; }
+.post-list > li > div { box-shadow: none !important; background-color: #ced7e3; border: none !important; }
 
-li .post-meta-description { color: rgba(216, 249, 221, 0.69) !important; }
-
-/*-----------------------------------*/
-/*----- ADD YOUR STYLES BELOW -------*/
-.language-python + .language-plaintext { border-left: 1px solid #e4e4e4; margin-left: 1rem !important; }
-
-[class^="language-"]:not(.language-plaintext) pre, [class^="language-"]:not(.language-plaintext) code { background-color: #323443 !important; color: #f8f8f2; }
-
-.language-python + .language-plaintext code { background-color: white !important; }
-
-.language-python + .language-plaintext pre { background-color: white !important; }
-
-.input_area pre, .input_area div { margin-bottom: 1.0rem !important; margin-top: 1.5rem !important; padding-bottom: 0 !important; padding-top: 0 !important; background: #323443 !important; -webkit-font-smoothing: antialiased; text-rendering: optimizeLegibility; font-family: Menlo, Monaco, Consolas, "Lucida Console", Roboto, Ubuntu, monospace; border-radius: 5px; font-size: 105%; }
-
-.output_area pre, .output_area div { margin-bottom: 1rem !important; margin-top: 0rem !important; padding-bottom: 0 !important; padding-top: 0 !important; }
-
-.input_area pre { border-left: 1px solid lightcoral; }
-
-.output_area pre { border-left: 1px solid grey; margin-left: 1rem !important; font-size: 16px; }
-
-.code_cell table { width: auto; }
-
-/* Dracula Theme v1.2.5 https://github.com/zenorocha/dracula-theme Copyright 2016, All rights reserved Code licensed under the MIT license */
-.highlight { background: #323443 !important; color: #f8f8f2 !important; }
-
-.highlight pre, .highlight code { background: #323443; color: #f8f8f2; font-size: 110%; }
-
-.highlight .hll, .highlight .s, .highlight .sa, .highlight .sb, .highlight .sc, .highlight .dl, .highlight .sd, .highlight .s2, .highlight .se, .highlight .sh, .highlight .si, .highlight .sx, .highlight .sr, .highlight .s1, .highlight .ss { color: #e7997a; }
-
-.highlight .go { color: #eaeaea; }
-
-.highlight .err, .highlight .g, .highlight .l, .highlight .n, .highlight .x, .highlight .ge, .highlight .gr, .highlight .gh, .highlight .gi, .highlight .gp, .highlight .gs, .highlight .gu, .highlight .gt, .highlight .ld, .highlight .no, .highlight .nd, .highlight .pi, .highlight .ni, .highlight .ne, .highlight .nn, .highlight .nx, .highlight .py, .highlight .w, .highlight .bp { color: #f8f8f2; background-color: #323443 !important; }
-
-.highlight .p { font-weight: bold; color: #66d9ef; }
-
-.highlight .ge { text-decoration: underline; }
-
-.highlight .bp { font-style: italic; }
-
-.highlight .c, .highlight .ch, .highlight .cm, .highlight .cpf, .highlight .cs { color: #d2d2d2; }
-
-.highlight .c1 { color: gray; }
-
-.highlight .kd, .highlight .kt, .highlight .nb, .highlight .nl, .highlight .nv, .highlight .vc, .highlight .vg, .highlight .vi, .highlight .vm { color: #8be9fd; }
-
-.highlight .kd, .highlight .nb, .highlight .nl, .highlight .nv, .highlight .vc, .highlight .vg, .highlight .vi, .highlight .vm { font-style: italic; }
-
-.highlight .fm, .highlight .na, .highlight .nc, .highlight .nf { color: #ace591; }
-
-.highlight .k, .highlight .o, .highlight .cp, .highlight .kc, .highlight .kn, .highlight .kp, .highlight .kr, .highlight .nt, .highlight .ow { color: #ff79c6; }
-
-.highlight .kc { color: #ace591; }
-
-.highlight .m, .highlight .mb, .highlight .mf, .highlight .mh, .highlight .mi, .highlight .mo, .highlight .il { color: #bd93f9; }
-
-.highlight .gd { color: #ff5555; }
-
-p code { font-size: 19px; }
+li .post-meta-description { color: #475569 !important; }
 
 /*# sourceMappingURL=style.css.map */
