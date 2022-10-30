@@ -21,10 +21,8 @@ function mineOre() {
   ore++;
   document.getElementById("clicker").innerHTML = ore;
 }
-function getCode() {
-  userCode.padStart(10); 
-  while (userCode.length < size) userCode = "0" + userCode;
-  print(userCode);
+function getCode(userCode) {
+  return userCode.toString().padStart(10, "0");
 }
 
 function updateDisplay(){
