@@ -1,9 +1,11 @@
 $high-emph: #fafafa; 
-$med-emph: #e2e8f0;
-$low-emph: #000000; 
-$dark-grey : #fafaf9;
-$overlay: #000000;
-$overlay-light: #ffffff;
+$red: #dc2626;
+$blue: #0369a1;
+$blue-hover: #2563eb;
+$black: #18181b;
+$grey : #a3a3a3;
+$overlay: #f5f5f4;
+$overlay-light: #f5f5f4;
 
 * {
     transition: all 0.2s ease-in-out;
@@ -16,22 +18,22 @@ textarea,
 select,
 button {
     color: $high-emph !important;
-    background-color: $dark-grey !important;
+    background-color: $grey !important;
 }
 .site-title,
 .site-title:visited,
 .site-nav,
 .page-link {
-    color: $high-emph !important;
+    color: $red !important;
 }
 
 .site-nav {
-    background-color: $dark-grey;
+    background-color: $grey;
     border-color: $overlay-light;
 }
 
 * {
-    scrollbar-color: $dark-grey $overlay-light;
+    scrollbar-color: $grey $overlay-light;
 }
 
 pre,
@@ -43,16 +45,16 @@ code {
 }
 
 .page-description {
-    color: $med-emph;
+    color: $black;
 }
 
 .post-meta {
-    color: $low-emph;
+    color: $black;
 }
 
 .post-content p,
 .post-content li {
-    color: $med-emph;
+    color: $black;
 }
 
 .btn {
@@ -62,7 +64,7 @@ code {
 }
 
 .btn:hover {
-    background-color: $dark-grey !important;
+    background-color: $grey !important;
 }
 
 table th {
@@ -71,13 +73,13 @@ table th {
 }
 
 table td {
-    background-color: $dark-grey;
+    background-color: $grey;
     border-color: $overlay-light;
-    color: $med-emph;
+    color: $black;
 }
 
 .flash {
-    color: $dark-grey !important;
+    color: $grey !important;
     filter: brightness(80%);
 }
 
@@ -92,21 +94,21 @@ canvas {
 }
 
 li .post-meta-description {
-    color: $med-emph !important;
+    color: $black !important;
 }
 
 .site-header {
     position: sticky;
     top: 0;
-    background-color: $dark-grey !important;
+    background-color: $grey !important;
 }
 
 a {
-    color: #2563eb !important;
+    color: $blue !important;
 }
 
 a:hover {
-    color: #0369a1 !important;
+    color: $blue-hover !important;
     text-decoration: none !important;
     font-weight: bold !important;
 }
