@@ -1,8 +1,7 @@
-$high-emph: rgba(rgb(216, 249, 221), 0.87);
-$med-emph: rgba(rgb(216, 249, 221), 0.69); //Noicee
-$low-emph: rgba(rgb(216, 249, 221), 0.38);
-$dark-grey : #717171; 
-// $dark-grey : #1F1B24;
+$high-emph: #e2e8f0;
+$med-emph: #475569; //Noicee
+$low-emph: #2563eb;
+$dark-grey : #cbd5e1; 
 $overlay: mix($dark-grey, white, 95%);
 $overlay-light: mix($dark-grey, white, 86%);
 
