@@ -14,13 +14,7 @@
 
   
   
-
-  
-
-  
-
-  
-      ,"page3": {
+      ,"page0": {
           "title": "About",
           "content": "Scrum Master Dev Ops Backend Dev Frontend Dev Frontend Dev . Ethan Tran | Rohin Sood | Parav Salaniwal | Luna Iwazaki | Taiyo Iwazaki | .",
           "url": "https://teambrobro.github.io/TeamBroBro/about/",
@@ -50,7 +44,7 @@
   
 
   
-      ,"page11": {
+      ,"page8": {
           "title": "",
           "content": "Sitemap: {{ “sitemap.xml” | absolute_url }} | .",
           "url": "https://teambrobro.github.io/TeamBroBro/robots.txt",
